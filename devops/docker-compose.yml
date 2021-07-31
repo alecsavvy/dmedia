@@ -1,0 +1,27 @@
+version: "2"
+
+networks:
+  app:
+
+services:
+  redis:
+    image: "bitnami/redis:latest"
+    ports:
+      - "6379:6379"
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    networks:
+      - app
+
+  ganache:
+    image: "trufflesuite/ganache-cli:latest"
+    ports:
+      - "8545:8545"
+    networks:
+      - app
+
+      # TODO: rust image will go here
+#   myapp:
+#     image: 'YOUR_APPLICATION_IMAGE'
+#     networks:
+#       - app
