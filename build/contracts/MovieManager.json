@@ -1,0 +1,215 @@
+{
+  "contractName": "MovieManager",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MovieManager.sol\":\"MovieManager\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MovieManager.sol\":{\"keccak256\":\"0x8a8e42dba4b43056153e08bef4b40848a84bfc49b4de1d837704ede501883369\",\"urls\":[\"bzz-raw://d2387e5f34b79d608baba5f42a41398b103fce40680a932178c5923db0096a7f\",\"dweb:/ipfs/QmfKDDyA1FSoQF6aWLghCeB5gBgMqrA5AsRq4TdFBgZPSm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158204fae64e2206104ac2c7e44253979123f928d2839e0011c8740a022f9440ff08664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158204fae64e2206104ac2c7e44253979123f928d2839e0011c8740a022f9440ff08664736f6c63430005100032",
+  "sourceMap": "66:54:2:-;;;92:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;92:26:2;66:54;;;;;;",
+  "deployedSourceMap": "66:54:2:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract MovieManager {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/asavvy/dev/dmedia/contracts/MovieManager.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MovieManager.sol",
+    "exportedSymbols": {
+      "MovieManager": [
+        46
+      ]
+    },
+    "id": 47,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 41,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 46,
+        "linearizedBaseContracts": [
+          46
+        ],
+        "name": "MovieManager",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 44,
+              "nodeType": "Block",
+              "src": "113:5:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 45,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 42,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:2:2"
+            },
+            "returnParameters": {
+              "id": 43,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:0:2"
+            },
+            "scope": 46,
+            "src": "92:26:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 47,
+        "src": "66:54:2"
+      }
+    ],
+    "src": "32:89:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/MovieManager.sol",
+      "exportedSymbols": {
+        "MovieManager": [
+          46
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 41,
+        "name": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            46
+          ],
+          "name": "MovieManager",
+          "scope": 47
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 46,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 42,
+                "name": "ParameterList",
+                "src": "103:2:2"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 43,
+                "name": "ParameterList",
+                "src": "113:0:2"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 44,
+                "name": "Block",
+                "src": "113:5:2"
+              }
+            ],
+            "id": 45,
+            "name": "FunctionDefinition",
+            "src": "92:26:2"
+          }
+        ],
+        "id": 46,
+        "name": "ContractDefinition",
+        "src": "66:54:2"
+      }
+    ],
+    "id": 47,
+    "name": "SourceUnit",
+    "src": "32:89:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-07-31T17:02:09.302Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

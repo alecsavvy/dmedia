@@ -1,0 +1,215 @@
+{
+  "contractName": "MusicManager",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MusicManager.sol\":\"MusicManager\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MusicManager.sol\":{\"keccak256\":\"0xdae0ead48a358394ee792836265412b2f84224338902b2cce3b8f3229284a4ba\",\"urls\":[\"bzz-raw://f350bf4156f348648c90fa9206f4da6248008d92247907ccaa68a63136347b48\",\"dweb:/ipfs/QmehEeDufvk1KFzohpzxSEgcTNzM9fMb22oR1wCUQroQFJ\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158209d6674586c31555257b0dc45f55da51074ca947b2f4095651a74156be48bc22164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158209d6674586c31555257b0dc45f55da51074ca947b2f4095651a74156be48bc22164736f6c63430005100032",
+  "sourceMap": "66:54:3:-;;;92:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;92:26:3;66:54;;;;;;",
+  "deployedSourceMap": "66:54:3:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract MusicManager {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/asavvy/dev/dmedia/contracts/MusicManager.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MusicManager.sol",
+    "exportedSymbols": {
+      "MusicManager": [
+        53
+      ]
+    },
+    "id": 54,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 48,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 53,
+        "linearizedBaseContracts": [
+          53
+        ],
+        "name": "MusicManager",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 51,
+              "nodeType": "Block",
+              "src": "113:5:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 52,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 49,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:2:3"
+            },
+            "returnParameters": {
+              "id": 50,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:0:3"
+            },
+            "scope": 53,
+            "src": "92:26:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 54,
+        "src": "66:54:3"
+      }
+    ],
+    "src": "32:89:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/MusicManager.sol",
+      "exportedSymbols": {
+        "MusicManager": [
+          53
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 48,
+        "name": "PragmaDirective",
+        "src": "32:32:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            53
+          ],
+          "name": "MusicManager",
+          "scope": 54
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 53,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 49,
+                "name": "ParameterList",
+                "src": "103:2:3"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 50,
+                "name": "ParameterList",
+                "src": "113:0:3"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 51,
+                "name": "Block",
+                "src": "113:5:3"
+              }
+            ],
+            "id": 52,
+            "name": "FunctionDefinition",
+            "src": "92:26:3"
+          }
+        ],
+        "id": 53,
+        "name": "ContractDefinition",
+        "src": "66:54:3"
+      }
+    ],
+    "id": 54,
+    "name": "SourceUnit",
+    "src": "32:89:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-07-31T17:02:09.303Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
